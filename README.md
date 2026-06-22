@@ -30,6 +30,7 @@ docker run -d --name anthropic-proxy --restart unless-stopped \
 |---|---|---|
 | `ROUTER_URL` | `http://localhost:4000/v1` | Upstream OpenAI-compatible endpoint |
 | `DEFAULT_MODEL` | `claude-sonnet-4-6` | Fallback model name |
+| `MULTIPLE_MODEL` | `add your model here` at line 44 in the proxy.py | Add multiple Model into M365 |
 
 ## Features
 
