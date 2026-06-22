@@ -1,6 +1,6 @@
-# anthropic-proxy
+# m365-anthropic-proxy
 
-Translate Anthropic Messages API → OpenAI Chat Completions format.
+Translate Anthropic Messages API → OpenAI Chat Completions format for Microsoft 365 add-ins.
 
 Allows Microsoft 365 add-ins (Claude for Excel, Word, PowerPoint, Outlook) to work with any OpenAI-compatible backend.
 
