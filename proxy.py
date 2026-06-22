@@ -42,9 +42,9 @@ ROUTER_URL = os.environ.get("ROUTER_URL", "http://host.docker.internal:20128/v1"
 DEFAULT_MODEL = os.environ.get("DEFAULT_MODEL", "claude-sonnet-4-6")
 
 SUPPORTED_MODELS = [
-    "claude-sonnet-4-6",
-    "claude-opus-4-7",
-    "claude-haiku-4-5-20251001",
+    "add your model here",
+    "add your model here",
+    "add your model here",
 ]
 
 CLIENT = httpx.AsyncClient(timeout=600)
