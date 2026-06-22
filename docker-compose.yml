@@ -1,0 +1,15 @@
+services:
+  anthropic-proxy:
+    image: ghcr.io/ersinkoc/anthropic-proxy:latest
+    container_name: anthropic-proxy
+    ports:
+      - "4000:8787"
+    environment:
+      - UPSTREAM_URL=http://host.docker.internal:20128/v1/chat/completions
+      - UPSTREAM_API_KEY=anything
+      - DEFAULT_MODEL=claude-sonnet-4-6
+      - FORCE_MODEL=0
+      - MODEL_MAP={}
+      - DEBUG=1
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
